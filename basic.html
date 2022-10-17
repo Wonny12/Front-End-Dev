@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Practice</title>
+    </head>
+    <body>
+        <h1>h1 tag</h1>
+        <h2>h2 tag</h2>
+        <h3>h3 tag</h3>
+        <h4>h4 tag</h4>
+        <h5>h5 tag</h5>
+        <h6>h6 tag</h6>
+        <p>Hello World!&nbsp;&nbsp;Myname is Bruce.<br> Goodbye World!</p>
+
+        <a href="#one"> Move to one</a>
+        <a href="#two"> Move to two</a>
+        <a href="#three"> Move to three</a>
+
+        <p id="one" style="margin-top: 100px;">one</p>
+        <p id="two" style="margin-top: 100px;">two</p>
+        <p id="three" style="margin-top: 150px;">three</p>
+
+        <a href="https://www.google.com" target="_blank">Move to Google<br></a>
+
+        <img src="./Images/Seoul.jpg" alt="The image of Seoul" width="80%" height="400">
+
+        <a href="https://google.com" target="_blank">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+        </a>
+        
+    </body>
+</html>
+<!-- 2022/10
+
+    Tag for contents: <div>, <p>, <span>
+        Ex: <div>contents</div>
+
+    <div> is open tag and </div> is close tag.
+
+    *Open tag and close tag must be same
+        Ex) <div>content</p> (x), <div>content</div> (o)
+
+    Tag without contents: 
+        <br>, <img>, <meta>
+
+    There are no open tag and close tag concepts for tag without contents.
+
+    <br> is called empty tag.
+
+    <!DOCTYPE html>: showing html5 version.
+
+    <html lang="en">
+        <html>: Beginning of a html document.
+        <html lang="">: Language info for a html file.
+
+    <head>: Info about our html document.
+    In <head>: 
+        There is meta tag: <meta ~>
+        <meta charset="">: For incoding of the document.
+        <meta name="viewport": Viewport meta tag.
+        <title>: Title for document
+        <body>: Anything in <body>, will be dislayed in the web browser.
+
+    *Important: <(tag_name) (element)="(element_value)">
+        Element: lang, charset, name, content, href, target, src, alt...etc.
+    
+    <h(n)>: 
+        Heading tag, usually used for important title for contents
+        h1 tag is recommended to be used only once in a single html file.
+        You don't have to use all h(n) tags (1~6) but must use them sequentially.
+        h(n) tag: The most important.
+        h1~h3: Usually being used in the industries.
+        h(n) tag: The least important.
+
+    <p>: 
+        paragraph tag. Create paragraph, so users can read contents better.
+        Even though we press space several times between the contents to divide them into several paragraph,
+        there will be only one space (maximum one space) displayed on the web browser.
+
+        Ex) <p>Hello    World</p> (4 times space)
+        How it will be displayed in the browser: Hello World (1 space maximum as it is the web browser)
+
+    How to display space for the web browser
+        Use &nbsp; (equal to 1 space)
+        Ex) <p>Hello&nbsp;&nbsp;World!</p> (double space: &nbsp two times)
+        How it will be displayed in the browser: Hello  World! (double space applied)
+
+    <br> tag: Divide contents into several paragraph
+    
+    -Incorrect usage of <p>-
+    ->Trying to print:
+        Hello World!
+        My name is Tom
+    Then, you do:
+        <p>Hello World!</p>
+        <p>My name is Tom</p>
+    Instead of this, we should:
+        <p>Hello World!<br> My name is Tom</p>
+    
+    <a>: anchor (a tag) use it when we create links for web page.
+    Internal link & external link for <a>
+    
+    -Internal link
+        <a href="">(content)</a>
+        href element:
+            when I click and want to move to the specific element, we use href. Give the ID attribute value of the element including the "#".
+
+            Ex) <a href="#one"> Move to one</a>
+                In this case, if we click "Move to one", we will be moved to the location where the ID "one" is located.
+            <p id="one" style="margin-top: 1500px;">one</p>
+                CSS is included and make blank spaces in order to see if the internal link works fine or not.
+            
+        
+        If we have ever used one specific internal link, it will be displayed with brown color and underline.
+
+        If there is one internal link which has never used, it will be displayed with blue color and underline.
+    
+    -External link
+        <a href="(address for other website)">(Content)</a>
+
+        In this case, you will be moved to other website on the tab you are at. To avoid this,
+
+        <a href="(address for other website)" target="_blank">(Content)</a>
+        we add "target" element and you will be able to access the other webpage using a different tab.
+
+    <img src="./Images/Seoul.jpg">
+        In the current folder where the index.html is running, find images folder and find the Seoul.jpg file.
+        <img> is the tag for uploading the image.
+    
+    <img src="../Images/Seoul.jpg">
+        Double dots. It means the parent folder of Images folder.
+    ../ -> the parent folder
+    ../../ -> the parent folder of the parent folder
+    ../../../ -> the parent folder of the parent folder of the parent folder
+    ... keep increasing
+
+    <img src="./Images/Seoul.jpg" alt="The image of Seoul" width="80%" height="400">
+        If the image is broken (can't be displayed), it is very important to leave the message explaining what the image is for.
+        So, users don't get confused with those images which aren't displayed.
+        We use alt="(The content)" for it.
+
+        For  width="80%" height="400", it is for the width and the height for the image.
+        80% for width is to get 80% of the original image's width (you can put the number ex: 400)
+        and the height value is given.
+        Important: Do not put value for width and height such as 150px.
+    
+    <a href="https://google.com" target="_blank">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+    </a>
+        https://www.google.com/images.. -> this is the resource from the other website (not in our project).
+        <img> is under <a href> which means if users click the google image, they will be moved to the website (google).
+-->
