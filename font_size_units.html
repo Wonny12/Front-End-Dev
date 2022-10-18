@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>font_size_unit</title>
+        <style>
+            html{
+                font-size: 16px;
+            }
+            h1{
+                font-size: 10vw;
+            }
+            p{
+                font-size: 2em;
+            }
+            span{
+                font-size: 2em;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Font size</h1>
+        <p>(n)em: (n) times of parent tag's font fize<br>
+            <span>span tag text</span>
+        </p>
+    </body>
+</html>
+<!--
+    px -> Basic and most frequently used
+    default font size of html: 16px
+    2rem -> 32px (double times of default font size)
+
+    Html font size: 13px -> this means 2rem will be 40 px.
+
+    (n)em: (n) times of parent tag's font fize
+    
+    <span> font size will be 2x<p> font size = 52px
+    why? because the font size of <span> is set up as 2em.
+
+    vw(viewport width) is unit related to width of the screen.
+    1vw = 1/100 of screen width
+-->
