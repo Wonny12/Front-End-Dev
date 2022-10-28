@@ -1,0 +1,18 @@
+p{color: brown;}
+/*
+Selector{attribute:attributevalue;}
+        -----Declaration part------
+Selector is the area to select HTML tag which you'd like to apply styling on it.
+Declaration part is the area to write the values down: Attribute & Attributevalue for styling.
+
+Ex) p{color: brown;}
+p is <p>. This means selector is set as <p>.
+color: Attribute, brown: attribute value
+
+Declaration can have multiple elements:
+Ex)     p{
+        color:blue;
+        font-size:16px;
+        }
+
+*/
